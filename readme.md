@@ -37,11 +37,12 @@ streamlit run main.py
 ```
 Le navigateur ouvrira l’interface.  
 Vous pourrez ajuster les paramètres et obtenir la prédiction du prix.
-
+## **Le modèle**
+Le modèle de forêt aléatoire a été entraîné sur le jeu de données California Housing, [dont le notebook est disponible ici](https://github.com/MiKL5/machineLearning/blob/master/projects/house).
 ## **Avertissements**
 * Ce modèle est un prototype pédagogique et ne garantit pas une précision parfaite en conditions réelles.
 * Les données saisies ne sont pas stockées, respectant ainsi la confidentialité de l'utilisateur.
 ___
 ## Auteurs
-Quentin HECQUET
-Mickael Gaillard
+Quentin HECQUET  
+Mickael GAILLARD

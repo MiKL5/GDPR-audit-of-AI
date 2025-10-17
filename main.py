@@ -10,14 +10,14 @@ st.markdown("""<h1 style="text-align:center;color:green;">Prédiction du prix d'
 st.markdown("""<div style="text-align:center;">Choisissez les caractéristiques<br><br></div>""",                    unsafe_allow_html=True)
 
 # Les variables
-longitude          = st.number_input("Quelle est la longitude ? (de -114 à -124)",                          min_value=-124.0, max_value=-114.0, value=-120.0)
-latitude           = st.number_input("Quelle est la latitude ? (de 32 à 42)",                               min_value=32.0,   max_value=42.0,   value=34.0)
+median_income      = st.number_input("Quel votre revenu médian (en dizaines de milliers de $) ? (de 0 20)", min_value=0.0,    max_value=20.0,   value=4.0)
 housing_median_age = st.slider("Choisissez l'age moyen des maisons (années) ? (Jusqu'à 50 ans)",            min_value=1,      max_value=50,     value=20)
 total_rooms        = st.slider("Quel est le nombre moyen de pièces (d'1 à 10 pièces)",                      min_value=1.0,    max_value=10.0,   value=6.0)
-total_bedrooms     = st.slider("Quel est le nombre moyen de chambres (d'1 à 5)",                            min_value=1.0,    max_value=5.0,    value=1.0)
+total_bedrooms     = st.slider("Quel est le nombre moyen de chambres (d'1 à 5)",                            min_value=1.0,    max_value=5.0,    value=3.0)
+households         = st.slider("Quelle est l'occupation moyenne ? (de 1 à 10)",                             min_value=1.0,    max_value=10.0,   value=2.0)
 population         = st.number_input("Quelle serait la population du quartier ? (de 10 à 5000 habitants)",  min_value=10,     max_value=5000,   value=500)
-households         = st.slider("Quelle est l'occupation moyenne ? (de 1 à 10)",                             min_value=1.0,    max_value=10.0,   value=3.0)
-median_income      = st.number_input("Quel votre revenu médian (en dizaines de milliers de $) ? (de 0 20)", min_value=0.0,    max_value=20.0,   value=4.0)
+latitude           = st.number_input("Quelle est la latitude ? (de 32 à 42)",                               min_value=32.0,   max_value=42.0,   value=34.0)
+longitude          = st.number_input("Quelle est la longitude ? (de -114 à -124)",                          min_value=-124.0, max_value=-114.0, value=-120.0)
 
 # Variables catégorielles
 ocean_proximity_options = ['<1H OCEAN', 'INLAND', 'ISLAND', 'NEAR BAY', 'NEAR OCEAN']
