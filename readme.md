@@ -45,4 +45,5 @@ Le modèle de forêt aléatoire a été entraîné sur le jeu de données Califo
 ___
 ## Auteurs
 Quentin HECQUET  
+Amadou  BOUBACAR  
 Mickael GAILLARD
