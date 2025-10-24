@@ -5,8 +5,7 @@
 ![Python](https://img.shields.io/badge/python-3.13-blue?style=flat&logo=python&logoColor=ffd43b) 
 ![Streamlit](https://img.shields.io/badge/Streamlit-Data_App-FF4B4B?style=flat&logo=streamlit&logoColor=white) 
 ![NumPy](https://img.shields.io/badge/NumPy-1.25-blue?style=flat&logo=NumPy&logoColor=white) 
-![Joblib](https://img.shields.io/badge/Joblib-Model_Loading-0078D4?style=flat) 
-<!-- ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)  -->
+![Joblib](https://img.shields.io/badge/Joblib-Model_Loading-0078D4?style=flat)
 
 </div><hr>
 
