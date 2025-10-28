@@ -1,15 +1,11 @@
-# Audit RGPD d'une IA de prédiction du prix des maisons 🏠<!-- <a href="../../"><img align="right" src="https://upload.wikimedia.org/wikipedia/commons/5/5d/JetBrains_PyCharm_Product_Logo.svg" alt="PyCharm" height="64px"></a> -->
+# Audit RGPD d'une IA prédisant du prix des maisons 🏠<!-- <a href="../../"><img align="right" src="https://upload.wikimedia.org/wikipedia/commons/5/5d/JetBrains_PyCharm_Product_Logo.svg" alt="PyCharm" height="64px"></a> -->
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/python-3.13-blue?style=flat&logo=python&logoColor=ffd43b) 
-![Streamlit](https://img.shields.io/badge/Streamlit-Data_App-FF4B4B?style=flat&logo=streamlit&logoColor=white) 
-![NumPy](https://img.shields.io/badge/NumPy-1.25-blue?style=flat&logo=NumPy&logoColor=white) 
-![Joblib](https://img.shields.io/badge/Joblib-Model_Loading-0078D4?style=flat)
+![Python](https://img.shields.io/badge/python-3.13-blue?style=flat&logo=python&logoColor=ffd43b) ![Streamlit](https://img.shields.io/badge/Streamlit-Data_App-FF4B4B?style=flat&logo=streamlit&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-1.25-blue?style=flat&logo=NumPy&logoColor=white) ![Joblib](https://img.shields.io/badge/Joblib-Model_Loading-0078D4?style=flat)
 
 </div><hr>
 
-## **Le projet**
 Cette application web interactive, développée avec **Streamlit**, permet d’estimer le prix médian d’une maison en Californie à partir de ses caractéristiques géographiques et démographiques.  
 Le modèle de prédiction est un modèle de forêt aléatoire (`RandomForestRegressor`) pré-entraîné et sauvegardé, chargé via **joblib**.
 ---
@@ -25,10 +21,10 @@ Le modèle de prédiction est un modèle de forêt aléatoire (`RandomForestRegr
 * Protection de la vie privée : aucune donnée personnelle n’est collectée ou stockée.
 ## Structure du projet
 ```txt
-├── rfr_model.pkl # Modèle pré-entraîné (Random Forest)
-├── app.py # Script principal Streamlit (cette application)
-├── README.md # Documentation
-└── requirements.txt # Dépendances nécessaires
+├── rfr_model.pkl      # Modèle pré-entraîné (Random Forest)
+├── app.py             # Script principal Streamlit
+├── README.md          # Documentation
+└── requirements.txt   # Dépendances nécessaires
 ```
 ## Lancer l'application
 ```bash
@@ -43,6 +39,6 @@ Le modèle de forêt aléatoire a été entraîné sur le jeu de données Califo
 * Les données saisies ne sont pas stockées, respectant ainsi la confidentialité de l'utilisateur.
 ___
 ## Auteurs
-Quentin HECQUET  
-Amadou  BOUBACAR  
-Mickael GAILLARD
+Quentin HECQUET  ➜ Droits des personnes, sécurité et registre de traitement.  
+Amadou  BOUBACAR ➜ Identifier les données, AIPD, PSSI.  
+Mickael GAILLARD ➜ Créer et entraîner du modèle, les principes éthiques.

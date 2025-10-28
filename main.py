@@ -7,7 +7,8 @@ with open("rfr_model.pkl", "rb") as model_file:
     model = joblib.load(model_file)
 
 st.markdown("""<h1 style="text-align:center;color:green;">Prédiction du prix d'une maison 🏠 en Californie</h1>""", unsafe_allow_html=True)
-st.markdown("""<div style="text-align:center;">Choisissez les caractéristiques<br><br></div>""",                    unsafe_allow_html=True)
+st.markdown("""<div style="background-color:#FFFACD;padding:15px 15px;border-radius:50px;color:#00008B;font-weight:extra-bold;font-size:20px;text-align:center;marign:auto;">Le prix est estimé à partir du revenu médian, de l’âge des maisons,<br>du nombre de pièces, la population et la proximité de l’océan.</div>""", unsafe_allow_html=True)
+st.markdown("""<div style="text-align:center;"><br><b>Choisissez les caractéristiques</b><br><br></div>""",unsafe_allow_html=True)
 
 # Les variables
 median_income      = st.number_input("Quel votre revenu médian (en dizaines de milliers de $) ? (de 0 20)", min_value=0,  max_value=20,   value=4)
