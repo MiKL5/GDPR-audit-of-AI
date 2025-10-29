@@ -42,3 +42,5 @@ ___
 Quentin HECQUET  ➜ Droits des personnes, sécurité et registre de traitement.  
 Amadou  BOUBACAR ➜ Identifier les données, AIPD, PSSI.  
 Mickael GAILLARD ➜ Créer et entraîner du modèle, les principes éthiques.
+
+![screen](asset/screenshotAI4DPRG.png)
